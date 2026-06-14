@@ -10,7 +10,7 @@ export default function Home() {
       title: "Modélisation de Base de Données Relationnelle",
       category: "Étude de Cas Universitaire",
       description: "Modélisation conceptuelle (MCD) et logique (MLD) pour un système d'information de gestion d'une bibliothèque. Rédaction de requêtes SQL complexes et implémentation pratique des contraintes d'intégrité.",
-      technologies: ["SQL", "Merise", "Algèbre Relationnelle", "SGBD"],
+      technologies: ["Algèbre Relationnelle"],
       iconType: "database",
     },
     {
@@ -24,15 +24,8 @@ export default function Home() {
       title: "Analyse Statistique & Études de Données",
       category: "Travaux Académiques",
       description: "Traitement et analyse logique de jeux de données réels. Calcul de probabilités, moyennes pondérées, variances et représentation graphique des tendances pour la gestion en entreprise.",
-      technologies: ["Statistiques", "Probabilités", "Analyse de Données"],
+      technologies: ["Statistiques", "Probabilités"],
       iconType: "math",
-    },
-    {
-      title: "Veille Technologique sur la Sécurisation des Données",
-      category: "Recherche Personnelle",
-      description: "Étude et documentation personnelle sur les architectures de serveurs de bases de données, la réplication en temps réel et les protocoles de sauvegarde pour la sécurité des systèmes d'information.",
-      technologies: ["SGBD Répartis", "Sécurité", "Veille Informatique"],
-      iconType: "network",
     },
   ];
 
@@ -53,22 +46,22 @@ export default function Home() {
               <span className="w-2 h-2 rounded-full bg-tech-cyan shadow-[0_0_8px_#00f0ff]" />
               Candidature d'Admission B.Eng.1 / B.Eng.2
             </div>
-            
+
             <h1 className="font-display font-bold text-4xl sm:text-5xl md:text-6xl text-text-primary tracking-tight leading-none">
               Djoulde Balde
             </h1>
-            
+
             <p className="font-display text-xl md:text-2xl font-medium text-tech-cyan">
               Futurs Horizons Informatiques • Licence 1 MIAGE
             </p>
-            
+
             <p className="text-text-secondary text-base md:text-lg leading-relaxed max-w-xl font-light">
-              Jeune étudiante guinéenne passionnée par les nouvelles technologies. 
-              Actuellement en Licence 1 MIAGE, mon objectif est d'intégrer 
-              <strong className="text-text-primary font-semibold"> SUPINFO</strong> pour développer des compétences avancées 
-              en informatique et concrétiser mon ambition : devenir **Administratrice de Bases de Données**.
+              Jeune étudiante guinéenne passionnée par les nouvelles technologies.
+              Actuellement en Licence 1 MIAGE, mon objectif est d'intégrer
+              <strong className="text-text-primary font-semibold"> SUPINFO</strong> pour développer des compétences avancées
+              en informatique et concrétiser mon ambition : devenir Administratrice de Bases de Données.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
               <a
                 href="#supinfo"
@@ -84,19 +77,19 @@ export default function Home() {
               </a>
             </div>
           </div>
-          
+
           {/* Cyber decoration display */}
           <div className="lg:col-span-5 hidden lg:flex justify-center items-center relative">
             <div className="w-[380px] h-[380px] rounded-2xl glass-panel relative border border-tech-cyan/20 flex flex-col justify-center items-center p-8 group">
               <div className="absolute inset-0 bg-grid-tech opacity-10 rounded-2xl" />
-              
+
               {/* Inner glowing core */}
               <div className="w-24 h-24 rounded-full bg-gradient-to-tr from-tech-cyan/20 to-tech-blue/20 flex items-center justify-center border border-tech-cyan/30 animate-pulse-slow mb-6">
                 <svg className="w-12 h-12 text-tech-cyan" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125M3.75 10.125v3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125M3.75 13.875v3.75" />
                 </svg>
               </div>
-              
+
               <div className="text-center space-y-2 relative z-10">
                 <div className="text-xs font-mono text-tech-cyan uppercase tracking-widest">Database System</div>
                 <h3 className="font-display font-semibold text-text-primary text-xl">Future DBA Expert</h3>
@@ -140,15 +133,15 @@ export default function Home() {
                   Une passionnée de technologies
                 </h3>
                 <p className="text-text-secondary text-sm md:text-base leading-relaxed font-light">
-                  Je suis une jeune étudiante guinéenne habitée par le désir d'approfondir mes connaissances en sciences numériques. 
+                  Je suis une jeune étudiante guinéenne habitée par le désir d'approfondir mes connaissances en sciences numériques.
                   L'informatique n'est pas seulement pour moi une filière d'études, c'est l'outil avec lequel je souhaite façonner des solutions fiables pour l'avenir.
                 </p>
                 <p className="text-text-secondary text-sm md:text-base leading-relaxed font-light">
-                  Actuellement inscrite en Licence 1 MIAGE à l'Université Kofi Annan de Guinée (UKAG), je développe des compétences fondamentales 
+                  Actuellement inscrite en Licence 1 MIAGE à l'Université Kofi Annan de Guinée (UKAG), je développe des compétences fondamentales
                   qui relient les techniques informatiques modernes à la gestion d'entreprise. Cela me donne une vision globale et pratique de l'usage des données.
                 </p>
                 <p className="text-text-secondary text-sm md:text-base leading-relaxed font-light">
-                  Mon but ultime est d'intégrer SUPINFO pour y acquérir une expertise technique robuste, afin de pouvoir superviser 
+                  Mon but ultime est d'intégrer SUPINFO pour y acquérir une expertise technique robuste, afin de pouvoir superviser
                   l'organisation, la sécurité et la haute disponibilité des données professionnelles.
                 </p>
               </div>
@@ -227,7 +220,7 @@ export default function Home() {
             <div className="relative pl-8 md:pl-12 group">
               {/* Point lumineux sur la timeline */}
               <div className="absolute -left-[7px] top-1.5 w-3.5 h-3.5 rounded-full bg-tech-cyan shadow-[0_0_10px_#00f0ff] transition-transform group-hover:scale-125 duration-300" />
-              
+
               {/* Date à gauche en écran large */}
               <div className="hidden md:block absolute -left-32 top-0.5 text-right w-24">
                 <span className="font-display font-bold text-lg text-tech-cyan">2025 - 2026</span>
@@ -249,7 +242,7 @@ export default function Home() {
                     En cours
                   </span>
                 </div>
-                
+
                 <p className="text-text-secondary text-xs font-mono uppercase tracking-widest">
                   Université Kofi Annan de Guinée (UKAG)
                 </p>
@@ -273,7 +266,7 @@ export default function Home() {
             {/* Timeline Item 2: Baccalauréat */}
             <div className="relative pl-8 md:pl-12 group">
               <div className="absolute -left-[7px] top-1.5 w-3.5 h-3.5 rounded-full bg-tech-blue shadow-[0_0_10px_#3b82f6] transition-transform group-hover:scale-125 duration-300" />
-              
+
               <div className="hidden md:block absolute -left-32 top-0.5 text-right w-24">
                 <span className="font-display font-bold text-lg text-text-secondary">2022 - 2025</span>
               </div>
@@ -293,7 +286,7 @@ export default function Home() {
                     Diplômée
                   </span>
                 </div>
-                
+
                 <p className="text-text-secondary text-xs font-mono uppercase tracking-widest">
                   Groupe Scolaire Yacine Diallo
                 </p>
@@ -306,7 +299,7 @@ export default function Home() {
             {/* Timeline Item 3: BEPC */}
             <div className="relative pl-8 md:pl-12 group">
               <div className="absolute -left-[7px] top-1.5 w-3.5 h-3.5 rounded-full bg-navy-light border border-text-muted transition-transform group-hover:scale-125 duration-300" />
-              
+
               <div className="hidden md:block absolute -left-32 top-0.5 text-right w-24">
                 <span className="font-display font-bold text-lg text-text-muted">2018 - 2022</span>
               </div>
@@ -326,7 +319,7 @@ export default function Home() {
                     Diplômée
                   </span>
                 </div>
-                
+
                 <p className="text-text-secondary text-xs font-mono uppercase tracking-widest">
                   Groupe Scolaire Yacine Diallo
                 </p>
@@ -387,7 +380,7 @@ export default function Home() {
                 </h3>
               </div>
               <ul className="space-y-2 text-sm text-text-secondary font-light">
-                {["Recherche sur Internet (veille)", "Bureautique avancée (Office)", "Communication numérique", "Utilisation d'outils informatiques", "Notions de scripts informatiques"].map((item, i) => (
+                {["Recherche sur Internet (veille)", "Bureautique avancée (Office)", "Communication numérique", "Utilisation d'outils informatiques"].map((item, i) => (
                   <li key={i} className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-tech-cyan" />
                     {item}
@@ -428,7 +421,7 @@ export default function Home() {
                 </svg>
                 Langues maîtrisées
               </h3>
-              
+
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex flex-col p-3 rounded bg-navy-light/40 border border-navy-light">
                   <span className="text-xs text-text-secondary">Français</span>
@@ -443,7 +436,7 @@ export default function Home() {
                   <span className="text-sm font-semibold text-text-primary">Langue maternelle</span>
                 </div>
                 <div className="flex flex-col p-3 rounded bg-navy-light/40 border border-navy-light">
-                  <span className="text-xs text-text-secondary">Soussou</span>
+                  <span className="text-xs text-text-secondary">Poular</span>
                   <span className="text-sm font-semibold text-text-primary">Usuel / Parlé</span>
                 </div>
               </div>
@@ -457,7 +450,7 @@ export default function Home() {
                 </svg>
                 Centres d'intérêt
               </h3>
-              
+
               <div className="grid grid-cols-2 gap-3">
                 {["Lecture (veille, essais)", "Voyage (ouverture)", "Vie associative (entraide)", "Navigation Web & Tech"].map((interest, i) => (
                   <div key={i} className="flex items-center gap-2 p-3.5 rounded bg-navy-light/40 border border-navy-light text-sm text-text-primary font-light">
@@ -476,7 +469,7 @@ export default function Home() {
           ========================================================================= */}
       <section id="objectif" className="py-24 px-6 md:px-12 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-tech-cyan/5 blur-3xl pointer-events-none" />
-        
+
         <div className="max-w-4xl mx-auto text-center">
           <SectionHeader
             title="Objectif Professionnel"
@@ -499,7 +492,7 @@ export default function Home() {
               </svg>
 
               <blockquote className="text-xl md:text-2xl font-light text-text-primary leading-relaxed italic px-4">
-                "Mon objectif est de devenir <strong className="font-semibold text-tech-cyan">Administratrice de Bases de Données (DBA)</strong>. 
+                "Mon objectif est de devenir <strong className="font-semibold text-tech-cyan">Administratrice de Bases de Données (DBA)</strong>.
                 Je souhaite développer des compétences avancées dans la gestion, l'organisation, la sécurisation et l'exploitation des données afin de contribuer efficacement à la transformation numérique des entreprises et des institutions."
               </blockquote>
 
@@ -725,7 +718,7 @@ export default function Home() {
                     <div>
                       <h4 className="text-xs uppercase font-bold tracking-wider text-text-secondary">Adresse</h4>
                       <p className="font-display font-semibold text-text-primary text-sm sm:text-base">
-                        Hamdallaye, Conakry / Labé, Guinée
+                        Hamdallaye, Conakry, Guinée
                       </p>
                     </div>
                   </div>
